@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/contact.css">
+</head>
+
+<body class="contact">
+    <nav>
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a class="crt" href="/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main class="form">
+        <h1 style="color: red;"> NOT ACTUALLY WORKING <br> DO NOT SUBMIT !!! </h1>
+        <h2>Contact me </h2>
+        <form action="" id="myform">
+            <label for="fname">First name:</label>
+            <input type="text" name="fname" id="fname" placeholder="Your first name" oninput="checkinput()" required>
+            <label for="lname">Last name:</label>
+            <input type="text" name="lname" id="lname" placeholder="Your last name">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Your email" oninput="checkinput()" required>
+            <label for="phone">phone number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Phone number" pattern="[0-9]{10}"
+                oninput="checkinput()" required>
+            <label for="tarea">Please add a few words:</label>
+            <textarea name="tarea" id="tarea" cols="30" rows="10" placeholder="Massage ..." oninput="checkinput()"
+                required></textarea>
+            <!-- <label for="favcolor">Pick your favorite color:</label>
+            <input type="color" name="favcolor" id="favcolor"> -->
+            <button type="submit" id="myBtn" disabled>Submit</button>
+        </form>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+        </ul>
+        <p id="pfooter">this page was build using: HTML,CSS and JavaScript</p>
+        <div>
+        </div>
+    </footer>
+
+    <script src="/js/global.js"></script>
+    <script src="/js/contact.js"></script>
+
+
+
+</body>
+
+</html>
